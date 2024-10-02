@@ -1,5 +1,6 @@
 package com.example.bookshelf.ui.screens
 
+import android.util.Log
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -32,7 +33,9 @@ class BookshelfViewModel(
 
         viewModelScope.launch {
             bookshelfUiState = try {
+                Log.d("DEBUG", "Reach here")
                 val searchResult = bookRepository.searchBooks(query = query)
+
                 BookshelfUiState.Success(booksQueryResult = searchResult)
             } catch (e: IOException) {
                 BookshelfUiState.Error
