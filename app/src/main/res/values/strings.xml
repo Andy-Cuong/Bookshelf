@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bookshelf</string>
+    <string name="enter_search_term">Enter search term</string>
+    <string name="search">Search</string>
+    <string name="result_found">%1$d results found for \"%2$s\"</string>
+    <string name="error_please_try_again">Error, please try again</string>
+    <string name="searching">Searching</string>
+    <string name="back_button">back</string>
+    <string name="unknown">Unknown</string>
+    <string name="authors">by %1$s</string>
+    <string name="publisher">Publisher: %1$s</string>
+</resources>
