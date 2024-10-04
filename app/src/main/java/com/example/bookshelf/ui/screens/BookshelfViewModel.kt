@@ -13,8 +13,8 @@ import com.example.bookshelf.BookshelfApplication
 import com.example.bookshelf.data.BookRepository
 import com.example.bookshelf.network.BooksQueryResult
 import kotlinx.coroutines.launch
-import okio.IOException
 import retrofit2.HttpException
+import java.io.IOException
 
 class BookshelfViewModel(
     private val bookRepository: BookRepository
