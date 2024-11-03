@@ -1,7 +1,5 @@
 package com.example.bookshelf.ui.screens
 
-import android.R.attr.author
-import android.R.attr.text
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
