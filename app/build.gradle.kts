@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.compose.compiler)
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.10"
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
